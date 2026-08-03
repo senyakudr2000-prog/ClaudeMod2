@@ -1,0 +1,29 @@
+{
+	"schemaVersion": 1,
+	"id": "claudemod",
+	"version": "${version}",
+	"name": "Claude Survival Bot",
+	"description": "Adds an autonomous humanoid bot that chops trees, fights hostile mobs, and wanders the world on its own — no commands needed.",
+	"authors": [
+		"you"
+	],
+	"contact": {},
+	"license": "MIT",
+	"icon": "assets/claudemod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.claudemod.ClaudeMod"
+		],
+		"client": [
+			"com.claudemod.client.ClaudeModClient"
+		]
+	},
+	"mixins": [],
+	"depends": {
+		"fabricloader": ">=0.18.1",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
